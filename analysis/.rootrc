@@ -1,0 +1,12 @@
+# Path used by dynamic loader to find shared libraries
+Unix.*.Root.DynamicPath:    .:macros:$ROOTSYS/lib
+Unix.*.Root.MacroPath:      .:macros
+
+# Activate memory statistics
+Rint.Root.MemStat:       1
+Rint.Root.ObjectStat:    1
+Rint.Load:               ~/rootalias.C
+Rint.Logon:              ./rootlogon.C
+Rint.Logoff:             ~/rootlogoff.C
+Rint.Canvas.MoveOpaque:  false
+Rint.Canvas.HighLightColor: 5
